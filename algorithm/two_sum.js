@@ -10,7 +10,6 @@ examples:
 
 function findSumTargetIndex(nums, target) {
 	
-	console.log(Array.isArray(nums))
 	if (!Array.isArray(nums)) {
 		throw new Error('nums must be a array');
 	}
